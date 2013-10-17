@@ -1,4 +1,3 @@
-chaosforfun.github.io
-=====================
+## [Js-Plugins](https://github.com/chaosforfun/js-plugins) ##
 
-个人blog主页
+一个Javascript插件列表，收集一些酷酷的插件以备不时只需。
