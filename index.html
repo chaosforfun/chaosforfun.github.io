@@ -1,3 +1,7 @@
+---
+　　layout: default
+　　title: 我的Blog
+　---
 <!DOCTYPE html>
 <html>
 
@@ -37,6 +41,12 @@
                 </h1>
 
                 <p>个人blog主页</p>
+
+                <ul>
+　　　　　　              {% for post in site.posts %}
+　　　　　　              <li>{{ post.date | date_to_string }}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+　　　　　　              {% endfor %}
+　　</ul>
             </section>
 
             <aside id="sidebar">
