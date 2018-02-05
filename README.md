@@ -1,3 +1,3 @@
 ## 个人blog ##
 
-chaos.forfu
+[chaosforfun](https://chaosforfun.github.io/)
